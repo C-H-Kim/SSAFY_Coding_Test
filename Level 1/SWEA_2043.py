@@ -1,8 +1,5 @@
 if __name__ == '__main__':
-    nums = list(map(int, input().split()))
-    P = int(nums[0])
-    K = int(nums[1])
-
+    P, K = map(int, input().split())
     count = 1
     while K != P:
         K += 1
