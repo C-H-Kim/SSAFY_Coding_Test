@@ -4,4 +4,4 @@ if __name__ == '__main__':
     for test_case in range(1, T + 1):
         num_list = list(map(int, input().split()))
         odd_nums = [x for x in num_list if x % 2 == 1]
-        print("#{} {}".format(test_case, sum(odd_nums)))
+        print(f"#{test_case} {sum(odd_nums)}")
