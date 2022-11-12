@@ -11,9 +11,8 @@ if __name__ == '__main__':
             if i == 1:
                 print(f"1", end='')
             else:
-                temp_list = []
+                temp_list = [1]
 
-                temp_list.append(1)
                 for j in range(1, i - 1):
                     temp_list.append(prev_list[j - 1] + prev_list[j])
                 temp_list.append(1)
