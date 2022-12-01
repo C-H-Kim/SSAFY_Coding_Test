@@ -1,1 +1,1 @@
-# SSAFY_Coding_Test
+# SWEA_Python
